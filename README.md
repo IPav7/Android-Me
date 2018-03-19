@@ -65,9 +65,10 @@ To complete an exercise, you'll want to check out the branch associated with tha
 git checkout TFCM.01-Exercise-AddGradleDependencies
 ```
 
+test
 **Step 3: Find and complete the TODOs**
 
-This branch should always have **Exercise** in the title. Once you've checked out the branch, you'll have the code in the exact state you need. You'll even have TODOs, which are special comments that tell you all the steps you need to complete the exercise. You can easily navigate to all the TODOs using Android Studio's TODO tool. To open the TODO tool, click the button at the bottom of the screen that says TODO. This will display a list of all comments with TODO in the project. 
+This branch should always have **Exercise** in the title. Once you've checked out the branch, you'll have the code in the exact state you need. You'll even have TODOs, which are special comments that tell you all the steps you need to complete the exercise. You can easily navigate to all the TODOs using Android Studio's tool. To open the tool, click the button at the bottom of the screen that says TODO. This will display a list of all comments with TODO in the project.
 
 We've numbered the TODO steps so you can do them in order:
 ![todos](https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58bf00e7_todos/todos.png
