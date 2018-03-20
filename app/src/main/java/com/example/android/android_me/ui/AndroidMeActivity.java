@@ -1,6 +1,7 @@
 package com.example.android.android_me.ui;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -40,6 +41,14 @@ public class AndroidMeActivity extends AppCompatActivity {
             fragmentManager.beginTransaction()
                     .add(R.id.leg_container, legPartFragment)
                     .commit();
+        }
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        Toast.makeText(this, "changed", Toast.LENGTH_SHORT).show();
+        if(newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE){
+            finish();
         }
     }
 }
